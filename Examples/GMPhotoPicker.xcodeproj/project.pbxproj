@@ -47,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77AF61B41FB0D4C800D39388 /* GMCloudCross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GMCloudCross@2x.png"; sourceTree = "<group>"; };
+		77AF61B51FB0D4C800D39388 /* GMCloudCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GMCloudCross.png; sourceTree = "<group>"; };
 		B31E084D1A0C45BC000D7841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = GMImagePicker.strings; sourceTree = "<group>"; };
 		B31E08501A0C45BC000D7841 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = GMImagePicker.strings; sourceTree = "<group>"; };
 		B31E08531A0C45BC000D7841 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = GMImagePicker.strings; sourceTree = "<group>"; };
@@ -240,24 +242,26 @@
 				B31E08541A0C45BC000D7841 /* en.lproj */,
 				B31E08571A0C45BC000D7841 /* es.lproj */,
 				B31E085A1A0C45BC000D7841 /* fr.lproj */,
-				B31E085D1A0C45BC000D7841 /* it.lproj */,
-				B31E08601A0C45BC000D7841 /* pt.lproj */,
-				B31E08631A0C45BC000D7841 /* GMVideoIcon.png */,
-				B31E08641A0C45BC000D7841 /* GMVideoIcon@2x.png */,
-				B321E47219D1A5FD0021FE16 /* GMEmptyFolder@1x.png */,
-				B321E47319D1A5FD0021FE16 /* GMEmptyFolder@2x.png */,
-				B321E46819D19A5B0021FE16 /* GMSelected.png */,
-				B321E46919D19A5B0021FE16 /* GMSelected@2x.png */,
 				B3A2F8A419D18A3700A59BE4 /* GMAlbumsViewCell.h */,
 				B3A2F8A519D18A3700A59BE4 /* GMAlbumsViewCell.m */,
 				B3A2F8A619D18A3700A59BE4 /* GMAlbumsViewController.h */,
 				B3A2F8A719D18A3700A59BE4 /* GMAlbumsViewController.m */,
+				77AF61B51FB0D4C800D39388 /* GMCloudCross.png */,
+				77AF61B41FB0D4C800D39388 /* GMCloudCross@2x.png */,
+				B321E47219D1A5FD0021FE16 /* GMEmptyFolder@1x.png */,
+				B321E47319D1A5FD0021FE16 /* GMEmptyFolder@2x.png */,
 				B3A2F8A819D18A3700A59BE4 /* GMGridViewCell.h */,
 				B3A2F8A919D18A3700A59BE4 /* GMGridViewCell.m */,
 				B3A2F8AA19D18A3700A59BE4 /* GMGridViewController.h */,
 				B3A2F8AB19D18A3700A59BE4 /* GMGridViewController.m */,
 				B3A2F8AC19D18A3700A59BE4 /* GMImagePickerController.h */,
 				B3A2F8AD19D18A3700A59BE4 /* GMImagePickerController.m */,
+				B321E46819D19A5B0021FE16 /* GMSelected.png */,
+				B321E46919D19A5B0021FE16 /* GMSelected@2x.png */,
+				B31E08631A0C45BC000D7841 /* GMVideoIcon.png */,
+				B31E08641A0C45BC000D7841 /* GMVideoIcon@2x.png */,
+				B31E085D1A0C45BC000D7841 /* it.lproj */,
+				B31E08601A0C45BC000D7841 /* pt.lproj */,
 			);
 			name = GMImagePicker;
 			path = ../../GMImagePicker;
