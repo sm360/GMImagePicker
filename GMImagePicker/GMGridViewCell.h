@@ -20,6 +20,11 @@
 @property (nonatomic, strong) UILabel *videoDuration;
 @property (nonatomic, strong) UIView *gradientView;
 @property (nonatomic, strong) CAGradientLayer *gradient;
+
+//Cloud overlay
+@property (nonatomic, assign, getter = isAssetFromCloud) BOOL assetFromCloud;
+@property (nonatomic, strong) UIButton *cloudButton;
+
 //Selection overlay
 @property (nonatomic) BOOL shouldShowSelection;
 @property (nonatomic, strong) UIView *coverView;
@@ -30,3 +35,4 @@
 - (void)bind:(PHAsset *)asset;
 
 @end
+
