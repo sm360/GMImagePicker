@@ -353,7 +353,7 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
 									  
 									  // Only update the thumbnail if the cell tag hasn't changed. Otherwise, the cell has been re-used.
 									  if (cell.tag == currentTag) {
-										  cell.cloudAsset = result == nil;
+										  cell.assetFromCloud = result == nil;
 										  cell.enabled = !(result == nil);
 									  }
 								  }];

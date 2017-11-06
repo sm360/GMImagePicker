@@ -22,8 +22,7 @@
 @property (nonatomic, strong) CAGradientLayer *gradient;
 
 //Cloud overlay
-@property (nonatomic, assign, getter = isCloudAsset) BOOL cloudAsset;
-@property (nonatomic, strong) UIView *cloudView;
+@property (nonatomic, assign, getter = isAssetFromCloud) BOOL assetFromCloud;
 @property (nonatomic, strong) UIButton *cloudButton;
 
 //Selection overlay

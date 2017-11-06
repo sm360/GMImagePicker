@@ -42,8 +42,8 @@ static UIColor *disabledColor;
 	self.contentView.translatesAutoresizingMaskIntoConstraints = YES;
 }
 
-- (void)setCloudAsset:(BOOL)cloudAsset {
-	_cloudAsset = cloudAsset;
+- (void)setAssetFromCloud:(BOOL)cloudAsset {
+	_assetFromCloud = cloudAsset;
 	
 	if (cloudAsset) {
 		_imageView.alpha = 0.3;
@@ -52,7 +52,6 @@ static UIColor *disabledColor;
 		_imageView.alpha = 1;
 	}
 	
-	_cloudView.hidden = !cloudAsset;
 	_cloudButton.selected = cloudAsset;
 	
 	[self setNeedsDisplay];
@@ -61,7 +60,7 @@ static UIColor *disabledColor;
 - (void)prepareForReuse {
 	[super prepareForReuse];
 	
-	self.cloudAsset = NO;
+	self.assetFromCloud = NO;
 }
 
 - (id)initWithFrame:(CGRect)frame
@@ -125,14 +124,7 @@ static UIColor *disabledColor;
 		_videoDuration.hidden = YES;
 		
 		
-		// Cloud overlay & icon
-		_cloudView = [[UIView alloc] initWithFrame:self.bounds];
-		_cloudView.translatesAutoresizingMaskIntoConstraints = NO;
-		_cloudView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
-		//_cloudView.backgroundColor = [UIColor colorWithRed:0.24 green:0.47 blue:0.85 alpha:0.6];
-		[self addSubview:_cloudView];
-		_cloudView.hidden = YES;
-		
+		// Cloud overlay & icon		
 		_cloudButton = [UIButton buttonWithType:UIButtonTypeCustom];
 		_cloudButton.frame = CGRectMake((2*self.bounds.size.width/3) - 5, 0*self.bounds.size.width/3, self.bounds.size.width/3, self.bounds.size.width/3);
 		_cloudButton.contentMode = UIViewContentModeTopRight;
