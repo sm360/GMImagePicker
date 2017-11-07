@@ -346,7 +346,7 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
 		requestOptions.networkAccessAllowed = NO;
 		
 		[self.imageManager requestImageForAsset:asset
-									 targetSize:PHImageManagerMaximumSize
+									 targetSize:CGSizeMake(400, 400)
 									contentMode:PHImageContentModeDefault
 										options:requestOptions
 								  resultHandler:^(UIImage *result, NSDictionary *info) {
